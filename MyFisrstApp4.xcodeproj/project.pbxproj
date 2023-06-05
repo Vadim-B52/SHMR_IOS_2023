@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36C5B5F2A262FAC0039E789 /* course.json in Resources */ = {isa = PBXBuildFile; fileRef = A36C5B5E2A261E510039E789 /* course.json */; };
+		A3EF090C2A1BAA61008474D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF090B2A1BAA61008474D8 /* AppDelegate.swift */; };
+		A3EF090E2A1BAA61008474D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF090D2A1BAA61008474D8 /* SceneDelegate.swift */; };
+		A3EF09102A1BAA61008474D8 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF090F2A1BAA61008474D8 /* CourseViewController.swift */; };
+		A3EF09132A1BAA61008474D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EF09112A1BAA61008474D8 /* Main.storyboard */; };
+		A3EF09152A1BAA61008474D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EF09142A1BAA61008474D8 /* Assets.xcassets */; };
+		A3EF09182A1BAA61008474D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EF09162A1BAA61008474D8 /* LaunchScreen.storyboard */; };
+		A3EF09232A1BAA62008474D8 /* MyFisrstApp4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF09222A1BAA62008474D8 /* MyFisrstApp4Tests.swift */; };
+		A3EF092D2A1BAA62008474D8 /* MyFisrstApp4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF092C2A1BAA62008474D8 /* MyFisrstApp4UITests.swift */; };
+		A3EF092F2A1BAA62008474D8 /* MyFisrstApp4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF092E2A1BAA62008474D8 /* MyFisrstApp4UITestsLaunchTests.swift */; };
+		A3EF093D2A1BABED008474D8 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF093C2A1BABED008474D8 /* Lecture.swift */; };
+		A3EF093F2A1BAC27008474D8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF093E2A1BAC27008474D8 /* Course.swift */; };
+		A3EF09412A1BAC73008474D8 /* CourseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF09402A1BAC73008474D8 /* CourseStorage.swift */; };
+		A3EF09432A1BAFF3008474D8 /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF09422A1BAFF3008474D8 /* LectureViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3EF091F2A1BAA62008474D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EF09002A1BAA60008474D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EF09072A1BAA61008474D8;
+			remoteInfo = MyFisrstApp4;
+		};
+		A3EF09292A1BAA62008474D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EF09002A1BAA60008474D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EF09072A1BAA61008474D8;
+			remoteInfo = MyFisrstApp4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A36C5B5E2A261E510039E789 /* course.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = course.json; sourceTree = "<group>"; };
+		A3EF09082A1BAA61008474D8 /* MyFisrstApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFisrstApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EF090B2A1BAA61008474D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3EF090D2A1BAA61008474D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3EF090F2A1BAA61008474D8 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		A3EF09122A1BAA61008474D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EF09142A1BAA61008474D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EF09172A1BAA61008474D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3EF09192A1BAA61008474D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EF091E2A1BAA62008474D8 /* MyFisrstApp4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFisrstApp4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EF09222A1BAA62008474D8 /* MyFisrstApp4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFisrstApp4Tests.swift; sourceTree = "<group>"; };
+		A3EF09282A1BAA62008474D8 /* MyFisrstApp4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFisrstApp4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EF092C2A1BAA62008474D8 /* MyFisrstApp4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFisrstApp4UITests.swift; sourceTree = "<group>"; };
+		A3EF092E2A1BAA62008474D8 /* MyFisrstApp4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFisrstApp4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3EF093C2A1BABED008474D8 /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		A3EF093E2A1BAC27008474D8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A3EF09402A1BAC73008474D8 /* CourseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStorage.swift; sourceTree = "<group>"; };
+		A3EF09422A1BAFF3008474D8 /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EF09052A1BAA61008474D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF091B2A1BAA62008474D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF09252A1BAA62008474D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3EF08FF2A1BAA60008474D8 = {
+			isa = PBXGroup;
+			children = (
+				A3EF090A2A1BAA61008474D8 /* MyFisrstApp4 */,
+				A3EF09212A1BAA62008474D8 /* MyFisrstApp4Tests */,
+				A3EF092B2A1BAA62008474D8 /* MyFisrstApp4UITests */,
+				A3EF09092A1BAA61008474D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EF09092A1BAA61008474D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF09082A1BAA61008474D8 /* MyFisrstApp4.app */,
+				A3EF091E2A1BAA62008474D8 /* MyFisrstApp4Tests.xctest */,
+				A3EF09282A1BAA62008474D8 /* MyFisrstApp4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EF090A2A1BAA61008474D8 /* MyFisrstApp4 */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF093C2A1BABED008474D8 /* Lecture.swift */,
+				A3EF093E2A1BAC27008474D8 /* Course.swift */,
+				A3EF090B2A1BAA61008474D8 /* AppDelegate.swift */,
+				A3EF090D2A1BAA61008474D8 /* SceneDelegate.swift */,
+				A3EF090F2A1BAA61008474D8 /* CourseViewController.swift */,
+				A3EF09402A1BAC73008474D8 /* CourseStorage.swift */,
+				A36C5B5E2A261E510039E789 /* course.json */,
+				A3EF09422A1BAFF3008474D8 /* LectureViewController.swift */,
+				A3EF09112A1BAA61008474D8 /* Main.storyboard */,
+				A3EF09142A1BAA61008474D8 /* Assets.xcassets */,
+				A3EF09162A1BAA61008474D8 /* LaunchScreen.storyboard */,
+				A3EF09192A1BAA61008474D8 /* Info.plist */,
+			);
+			path = MyFisrstApp4;
+			sourceTree = "<group>";
+		};
+		A3EF09212A1BAA62008474D8 /* MyFisrstApp4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF09222A1BAA62008474D8 /* MyFisrstApp4Tests.swift */,
+			);
+			path = MyFisrstApp4Tests;
+			sourceTree = "<group>";
+		};
+		A3EF092B2A1BAA62008474D8 /* MyFisrstApp4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF092C2A1BAA62008474D8 /* MyFisrstApp4UITests.swift */,
+				A3EF092E2A1BAA62008474D8 /* MyFisrstApp4UITestsLaunchTests.swift */,
+			);
+			path = MyFisrstApp4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EF09072A1BAA61008474D8 /* MyFisrstApp4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EF09322A1BAA62008474D8 /* Build configuration list for PBXNativeTarget "MyFisrstApp4" */;
+			buildPhases = (
+				A3EF09042A1BAA61008474D8 /* Sources */,
+				A3EF09052A1BAA61008474D8 /* Frameworks */,
+				A3EF09062A1BAA61008474D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFisrstApp4;
+			productName = MyFisrstApp4;
+			productReference = A3EF09082A1BAA61008474D8 /* MyFisrstApp4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EF091D2A1BAA62008474D8 /* MyFisrstApp4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EF09352A1BAA62008474D8 /* Build configuration list for PBXNativeTarget "MyFisrstApp4Tests" */;
+			buildPhases = (
+				A3EF091A2A1BAA62008474D8 /* Sources */,
+				A3EF091B2A1BAA62008474D8 /* Frameworks */,
+				A3EF091C2A1BAA62008474D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EF09202A1BAA62008474D8 /* PBXTargetDependency */,
+			);
+			name = MyFisrstApp4Tests;
+			productName = MyFisrstApp4Tests;
+			productReference = A3EF091E2A1BAA62008474D8 /* MyFisrstApp4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3EF09272A1BAA62008474D8 /* MyFisrstApp4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EF09382A1BAA62008474D8 /* Build configuration list for PBXNativeTarget "MyFisrstApp4UITests" */;
+			buildPhases = (
+				A3EF09242A1BAA62008474D8 /* Sources */,
+				A3EF09252A1BAA62008474D8 /* Frameworks */,
+				A3EF09262A1BAA62008474D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EF092A2A1BAA62008474D8 /* PBXTargetDependency */,
+			);
+			name = MyFisrstApp4UITests;
+			productName = MyFisrstApp4UITests;
+			productReference = A3EF09282A1BAA62008474D8 /* MyFisrstApp4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EF09002A1BAA60008474D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A3EF09072A1BAA61008474D8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A3EF091D2A1BAA62008474D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A3EF09072A1BAA61008474D8;
+					};
+					A3EF09272A1BAA62008474D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A3EF09072A1BAA61008474D8;
+					};
+				};
+			};
+			buildConfigurationList = A3EF09032A1BAA60008474D8 /* Build configuration list for PBXProject "MyFisrstApp4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EF08FF2A1BAA60008474D8;
+			productRefGroup = A3EF09092A1BAA61008474D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EF09072A1BAA61008474D8 /* MyFisrstApp4 */,
+				A3EF091D2A1BAA62008474D8 /* MyFisrstApp4Tests */,
+				A3EF09272A1BAA62008474D8 /* MyFisrstApp4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EF09062A1BAA61008474D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36C5B5F2A262FAC0039E789 /* course.json in Resources */,
+				A3EF09182A1BAA61008474D8 /* LaunchScreen.storyboard in Resources */,
+				A3EF09152A1BAA61008474D8 /* Assets.xcassets in Resources */,
+				A3EF09132A1BAA61008474D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF091C2A1BAA62008474D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF09262A1BAA62008474D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EF09042A1BAA61008474D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EF09412A1BAC73008474D8 /* CourseStorage.swift in Sources */,
+				A3EF09432A1BAFF3008474D8 /* LectureViewController.swift in Sources */,
+				A3EF093D2A1BABED008474D8 /* Lecture.swift in Sources */,
+				A3EF09102A1BAA61008474D8 /* CourseViewController.swift in Sources */,
+				A3EF093F2A1BAC27008474D8 /* Course.swift in Sources */,
+				A3EF090C2A1BAA61008474D8 /* AppDelegate.swift in Sources */,
+				A3EF090E2A1BAA61008474D8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF091A2A1BAA62008474D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EF09232A1BAA62008474D8 /* MyFisrstApp4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF09242A1BAA62008474D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EF092F2A1BAA62008474D8 /* MyFisrstApp4UITestsLaunchTests.swift in Sources */,
+				A3EF092D2A1BAA62008474D8 /* MyFisrstApp4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3EF09202A1BAA62008474D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EF09072A1BAA61008474D8 /* MyFisrstApp4 */;
+			targetProxy = A3EF091F2A1BAA62008474D8 /* PBXContainerItemProxy */;
+		};
+		A3EF092A2A1BAA62008474D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EF09072A1BAA61008474D8 /* MyFisrstApp4 */;
+			targetProxy = A3EF09292A1BAA62008474D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3EF09112A1BAA61008474D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EF09122A1BAA61008474D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EF09162A1BAA61008474D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EF09172A1BAA61008474D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EF09302A1BAA62008474D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3EF09312A1BAA62008474D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EF09332A1BAA62008474D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FX7V4LFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFisrstApp4/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.MyFisrstApp4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3EF09342A1BAA62008474D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FX7V4LFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFisrstApp4/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.MyFisrstApp4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3EF09362A1BAA62008474D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FX7V4LFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.MyFisrstApp4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFisrstApp4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFisrstApp4";
+			};
+			name = Debug;
+		};
+		A3EF09372A1BAA62008474D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FX7V4LFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.MyFisrstApp4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFisrstApp4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFisrstApp4";
+			};
+			name = Release;
+		};
+		A3EF09392A1BAA62008474D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FX7V4LFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.MyFisrstApp4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFisrstApp4;
+			};
+			name = Debug;
+		};
+		A3EF093A2A1BAA62008474D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FX7V4LFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.MyFisrstApp4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFisrstApp4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EF09032A1BAA60008474D8 /* Build configuration list for PBXProject "MyFisrstApp4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EF09302A1BAA62008474D8 /* Debug */,
+				A3EF09312A1BAA62008474D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EF09322A1BAA62008474D8 /* Build configuration list for PBXNativeTarget "MyFisrstApp4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EF09332A1BAA62008474D8 /* Debug */,
+				A3EF09342A1BAA62008474D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EF09352A1BAA62008474D8 /* Build configuration list for PBXNativeTarget "MyFisrstApp4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EF09362A1BAA62008474D8 /* Debug */,
+				A3EF09372A1BAA62008474D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EF09382A1BAA62008474D8 /* Build configuration list for PBXNativeTarget "MyFisrstApp4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EF09392A1BAA62008474D8 /* Debug */,
+				A3EF093A2A1BAA62008474D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3EF09002A1BAA60008474D8 /* Project object */;
+}
